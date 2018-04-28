@@ -7,7 +7,9 @@ using System.Web.Http;
 
 namespace AuthenticCatzo.Controllers
 {
+    [RoutePrefix("api/TVSeries")]
     public class TVSeriesController : ApiController
     {
+       
     }
 }
